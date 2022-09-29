@@ -27,7 +27,7 @@ try:
     # Instantiate a request object. You can further set the request parameters according to the API called and actual conditions
     req = models.DescribeSecurityGroupsRequest()
     params = {
-
+        "SecurityGroupId": "sg-fsy7po8t"
     }
     req.from_json_string(json.dumps(params))
 
