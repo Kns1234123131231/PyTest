@@ -11,7 +11,7 @@ try:
     # This example uses the way to read from the environment variable, so you need to set these two values in the environment variable in advance
     # You can also write the key pair directly into the code, but be careful not to copy, upload, or share the code to others
     # Query the CAM key: https://console.cloud.tencent.com/cam/capi
-    cred = credential.Credential("SecretId", "SecretKey")
+    cred = credential.Credential("IKIDhCRP7YhaIFwMVO0LPDk0yf6G9l6BzWno", "lGVTAajcEZcQwB9qOffOr3yczA4g2Xmk")
     # Instantiate an HTTP option (optional; skip if there are no special requirements)
     httpProfile = HttpProfile()
     httpProfile.endpoint = "vpc.tencentcloudapi.com"
